@@ -70,3 +70,5 @@ Going back to the `core`, in the `ports` folder the concept of `UseCase` is used
 ![Hexagonal Architecture 2](https://reflectoring.io/assets/img/posts/spring-hexagonal/hexagonal-architecture.png)
 
 ![Hexagonal Architecture 3](https://herbertograca.files.wordpress.com/2017/03/hexagonal-arch-4-ports-adapters2.png)
+
+![Test](https://github.com/fernandohu/quickstart-java-hexagonal-architecture/blob/master/resources/hexagonal-architecture-1.png)
