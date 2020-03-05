@@ -59,9 +59,10 @@ The idea here is to organize the project using Hexagonal Architecture.
 
 In this pattern, we put business rules inside the `core` folder (some people prefer to use 'application'). This is where you store the core code related to your domain. If you need to communicate with external sources like databases, queues, cache, rest, soap, file or any other source, you will create interfaces inside this folder, but not the implementation. The `core` is independent from the rest of the system, it only has to know interfaces. It means that the core has its own defined entities (it will not use DTOs created to work with external sources).
 
-Communication from and to external systems should be implemented in the `adapter` folder. Incoming communication like REST controllers, SOAP Endpoints, Batch execution and any other kind of entry point should be implemented here. Outgoing communication with databases, queues, cache, rest, soap, http requests, file or any other type of outgoing request should also be implemented here. The `adapter` is dependent on the `core`, it uses interfaces located there. You will not write business rules related to your domain here.
+Communication from and to external systems should be implemented in the `adapter` folder. Incoming communication like REST controllers, SOAP Endpoints, Batch execution and any other kind of entry point should be implemented here. Outgoing communication with databases, queues, cache, rest, soap, http requests, file or any other type of outgoing request should also be implemented here. The `adapter` is dependent on the 'core', it uses interfaces located there. You will not write business rules related to your domain here.
 
 The `config` folder should store any configuration related to things like Spring or Beans.
 
 Going back to the `core`, in the `ports` folder the concept of `UseCase` is used to denote a class representing a single business rule, with single responsibility. The concept of `Port` is used to denote an outgoing communication with an external source.
 
+![Hexagonal Architecture 1](https://herbertograca.files.wordpress.com/2017/03/hexagonal-arch-4-ports-adapters2.png)
