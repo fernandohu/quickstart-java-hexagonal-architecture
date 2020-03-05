@@ -1,4 +1,4 @@
-# Java Hexagonal Quickstart Architecture
+# Java Hexagonal Architecture Quickstart 
 
 This quickstart project uses Java 8 and Hexagonal Architecture with the following libraries:
 
