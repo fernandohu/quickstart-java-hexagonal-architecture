@@ -65,4 +65,8 @@ The `config` folder should store any configuration related to things like Spring
 
 Going back to the `core`, in the `ports` folder the concept of `UseCase` is used to denote a class representing a single business rule, with single responsibility. The concept of `Port` is used to denote an outgoing communication with an external source.
 
-![Hexagonal Architecture 1](https://herbertograca.files.wordpress.com/2017/03/hexagonal-arch-4-ports-adapters2.png)
+![Hexagonal Architecture 1](https://herbertograca.files.wordpress.com/2018/11/100-explicit-architecture-svg.png)
+
+![Hexagonal Architecture 2](https://reflectoring.io/assets/img/posts/spring-hexagonal/hexagonal-architecture.png)
+
+![Hexagonal Architecture 3](https://herbertograca.files.wordpress.com/2017/03/hexagonal-arch-4-ports-adapters2.png)
